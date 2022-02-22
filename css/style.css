@@ -16,6 +16,10 @@
     background-color: #3a546d;
 }
 
+.white {
+    color: white;
+}
+
 header {
     color: white;
 }
@@ -34,7 +38,7 @@ header {
     font-size: 20px;
 }
 
-.menu i {
+.btn {
     border: 1px solid white;
     border-radius: 5px;
 }
@@ -65,3 +69,35 @@ header {
     font-size: 25px;
 }
 
+/* inizio portfolio */
+
+.portfolio h1 {
+    font-size: 60px;
+}
+
+.col-4 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.portfolio p {
+    font-size: 20px;
+}
+
+/* inizio contact */
+
+form {
+    display: flex;
+    flex-direction: column
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.submit input {
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
