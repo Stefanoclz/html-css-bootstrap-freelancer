@@ -20,6 +20,14 @@
     color: white;
 }
 
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
 header {
     color: white;
 }
@@ -69,7 +77,23 @@ header {
     font-size: 25px;
 }
 
+.line {
+    height: 5px;
+}
+
+.star {
+    font-size: 30px;
+}
+
+.SCmarginY {
+    margin: auto 0;
+}
+
 /* inizio portfolio */
+
+.portfolio {
+    text-align: center;
+}
 
 .portfolio h1 {
     font-size: 60px;
@@ -100,4 +124,15 @@ input, textarea {
     border-radius: 10px;
     border: none;
     font-size: 20px;
+}
+
+/* Inizio Info */
+
+.social i {
+    width: 70px;
+}
+
+.circle {
+    border: 1px soliod white;
+    border-radius: 50%;
 }
