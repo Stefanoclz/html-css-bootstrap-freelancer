@@ -79,19 +79,16 @@ header {
 
 /* inizio portfolio */
 
-.portfolio {
-    text-align: center;
-}
 
-.portfolio img {
+#portfolio img {
     width: 100%;
 }
 
-.portfolio h1, .about h1 {
+#portfolio h1, #about h1 {
     font-size: 60px;
 }
 
-.portfolio p, .about p {
+#portfolio p, #about p {
     font-size: 20px;
 }
 

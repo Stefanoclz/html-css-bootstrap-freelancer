@@ -73,7 +73,7 @@
                         START BOOTSTRAP
                     </h1>
 
-                    <div class="row col-12 justify-content-center m-0">
+                    <div class="row justify-content-center m-0">
                         <div class="col-2 SCmarginY">
                             <div class="row">
                                 <div class="line bg-white"></div>
@@ -101,11 +101,11 @@
 
         <div class="container mt-5 py-4">
 
-            <div class="portfolio">
+            <div id="portfolio" class="text-center">
 
                 <h1>PORTFOLIO</h1>
 
-                <div class="row col-12 justify-content-center">
+                <div class="row justify-content-center">
                     <div class="col-2 SCmarginY">
                         <div class="row align-items-center">
                             <div class="line bg-black"></div>
@@ -156,10 +156,10 @@
 
         <div class="container-fluid bg-green">
             <div class="container py-5 white">
-                <div class="about text-center">
+                <div id="about" class="text-center">
                     <h1>ABOUT</h1>
 
-                    <div class="row col-12 justify-content-center">
+                    <div class="row justify-content-center">
                         <div class="col-2 SCmarginY">
                             <div class="row align-items-center">
                                 <div class="line bg-white"></div>
@@ -200,44 +200,47 @@
             </div>
         </div>
 
-        <!-- / portfolio -->
+        <!-- / about -->
 
         <!-- Inizio Contact Me -->
 
         <div class="container my-5">
 
-            <div class="contact text-center">
+            <div id="contact" class="row text-center justify-content-center">
 
-                <h1>CONTACT ME</h1>
+                <div class="col-8 col-md-10 col-lg-10">
 
-                <div class="row col-12 justify-content-center">
-                    <div class="col-2 SCmarginY">
-                        <div class="row align-items-center">
-                            <div class="line bg-black"></div>
+                    <h1>CONTACT ME</h1>
+
+                    <div class="row justify-content-center">
+                        <div class="col-2 SCmarginY">
+                            <div class="row align-items-center">
+                                <div class="line bg-black"></div>
+                            </div>
+                        </div>
+                        <div class="col-2 text-center fs-1"><i class="fa-solid fa-star"></i></div>
+                        <div class="col-2 SCmarginY">
+                            <div class="row align-items-center">
+                                <div class="line bg-black m-0"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-2 text-center fs-1"><i class="fa-solid fa-star"></i></div>
-                    <div class="col-2 SCmarginY">
-                        <div class="row align-items-center">
-                            <div class="line bg-black m-0"></div>
-                        </div>
-                    </div>
-                </div>
 
-                <form class="text-start">
-                    <label for="name">Name</label>
-                    <input class="my-3" type="text" id="name" name="name">
-                    <label for="mail">Email Address</label>
-                    <input class="my-3" type="email" id="mail" name="mail">
-                    <label for="phone">Phone Number</label>
-                    <input class="my-3" type="number" id="phone" name="phone">
-                    <label for="message">Message</label>
-                    <textarea class="my-3" id="message" name="message" rows="6" cols="50">
+                    <form class="text-start">
+                        <label for="name">Name</label>
+                        <input class="my-3" type="text" id="name" name="name">
+                        <label for="mail">Email Address</label>
+                        <input class="my-3" type="email" id="mail" name="mail">
+                        <label for="phone">Phone Number</label>
+                        <input class="my-3" type="number" id="phone" name="phone">
+                        <label for="message">Message</label>
+                        <textarea class="my-3" id="message" name="message" rows="6" cols="50">
                     </textarea>
-                    <div class="submit">
-                        <input class="py-2 px-3 text-start bg-green white" type="submit" value="Send">
-                    </div>
-                </form>
+                        <div class="submit">
+                            <input class="py-2 px-3 text-start bg-green white" type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
