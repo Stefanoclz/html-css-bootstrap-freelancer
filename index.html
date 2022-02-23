@@ -23,51 +23,52 @@
             </div>
 
             <div class="menu px-3 py-2">
-                <ul>
+                <ul class="d-lg-block d-md-block d-sm-none">
                     <li>PORTFOLIO</li>
                     <li>ABOUT</li>
                     <li>CONTACT</li>
                 </ul>
-                <i class="fa-solid fa-bars btn d-none"></i>
+                <i class="fa-solid fa-bars btn d-lg-none d-md-none d-sm-block white"></i>
             </div>
         </div>
     </header>
 
-    <div class="container-fluid bg-green py-5">
+    <!-- inizio jumbo -->
+
+    <section class="bg-green py-5">
         <div class="container">
-            <div class="jumbo text-center">
+            <div class="row text-center d-flex flex-column text-white">
+                <div id="jumbo" class="col">
 
-                <div class="jumboImg my-3">
-                    <img src="img/avatar.svg" alt="avatar">
-                </div>
+                    <div class="jumboImg my-3">
+                        <img src="img/avatar.svg" alt="avatar">
+                    </div>
 
-                <h1>
-                    START BOOTSTRAP
-                </h1>
+                    <h1>
+                        START BOOTSTRAP
+                    </h1>
 
-                <div class="row col-12 justify-content-center">
-                    <div class="col-2 SCmarginY">
-                        <div class="row">
-                            <div class="line bg-white"></div>
+                    <div class="row col-12 justify-content-center m-0">
+                        <div class="col-2 SCmarginY">
+                            <div class="row">
+                                <div class="line bg-white"></div>
+                            </div>
+                        </div>
+                        <div class="col-2 text-center fs-1"><i class="fa-solid fa-star"></i></div>
+                        <div class="col-2 SCmarginY">
+                            <div class="row">
+                                <div class="line bg-white"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-1 text-center star"><i class="fa-solid fa-star"></i></div>
-                    <div class="col-2 SCmarginY">
-                        <div class="row">
-                            <div class="line bg-white"></div>
-                        </div>
+
+                    <div class="jumboTxt text-center fs-3">
+                        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
                     </div>
                 </div>
-
-                <div class="jumboTxt text-center">
-                    <div>GRAPHIC ARTIST - </div>
-                    <div>WEB DESIGNER</div>
-                    <div> - ILLUSTRATOR</div>
-                </div>
-
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- fine jumbo -->
 
@@ -85,28 +86,39 @@
                             <div class="line bg-black"></div>
                         </div>
                     </div>
-                    <div class="col-1 text-center star"><i class="fa-solid fa-star"></i></div>
+                    <div class="col-2 text-center fs-1"><i class="fa-solid fa-star"></i></div>
                     <div class="col-2 SCmarginY">
                         <div class="row align-items-center">
-                            <div class="line bg-black"></div>
+                            <div class="line bg-black m-0"></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row my-4 gy-4">
 
-                    <img class="col-lg-4 col-md-6 col-sm-12 SCradius" src="img/cabin.png" alt="cabin">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img class="SCradius" src="img/cabin.png" alt="cabin">
+                    </div>
 
-                    <img class="col-lg-4 col-md-6 col-sm-12 SCradius" src="img/cake.png" alt="cake">
+                    <div class="col-lg-4 col-md-6 col-sm-12 SCradius">
+                        <img class="SCradius" src="img/cake.png" alt="cake">
+                    </div>
 
-                    <img class="col-lg-4 col-md-6 col-sm-12 SCradius" src="img/circus.png" alt="circus">
+                    <div class="col-lg-4 col-md-6 col-sm-12 SCradius">
+                        <img class="SCradius" src="img/circus.png" alt="circus">
+                    </div>
 
-                    <img class="col-lg-4 col-md-6 col-sm-12 SCradius" src="img/game.png" alt="game">
+                    <div class="col-lg-4 col-md-6 col-sm-12 SCradius">
+                        <img class="SCradius" src="img/game.png" alt="game">
+                    </div>
 
-                    <img class="col-lg-4 col-md-6 col-sm-12 SCradius" src="img/safe.png" alt="safe">
+                    <div class="col-lg-4 col-md-6 col-sm-12 SCradius">
+                        <img class="SCradius" src="img/safe.png" alt="safe">
+                    </div>
 
-                    <img class="col-lg-4 col-md-6 col-sm-12 SCradius" src="img/submarine.png" alt="submarine">
-
+                    <div class="col-lg-4 col-md-6 col-sm-12 SCradius">
+                        <img class="SCradius" src="img/submarine.png" alt="submarine">
+                    </div>
 
                 </div>
             </div>
@@ -114,9 +126,12 @@
 
         <!-- / portfolio -->
 
+        <!-- inizio about -->
+
+
         <div class="container-fluid bg-green">
             <div class="container py-5 white">
-                <div class="portfolio">
+                <div class="about text-center">
                     <h1>ABOUT</h1>
 
                     <div class="row col-12 justify-content-center">
@@ -125,16 +140,16 @@
                                 <div class="line bg-white"></div>
                             </div>
                         </div>
-                        <div class="col-1 text-center star"><i class="fa-solid fa-star"></i></div>
+                        <div class="col-2 text-center fs-1"><i class="fa-solid fa-star"></i></div>
                         <div class="col-2 SCmarginY">
                             <div class="row align-items-center">
-                                <div class="line bg-white"></div>
+                                <div class="line bg-white m-0"></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="row text-start my-3">
-                        <div class="col-6">
+                        <div class="col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-8 offset-2">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque corrupti
                                 ratione
@@ -144,7 +159,7 @@
                             </p>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-lg-5 offset-lg-0 col-md-5 offset-md-0 col-8 offset-2 text-start">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque corrupti
                                 ratione
@@ -176,10 +191,10 @@
                             <div class="line bg-black"></div>
                         </div>
                     </div>
-                    <div class="col-1 text-center star"><i class="fa-solid fa-star"></i></div>
+                    <div class="col-2 text-center fs-1"><i class="fa-solid fa-star"></i></div>
                     <div class="col-2 SCmarginY">
                         <div class="row align-items-center">
-                            <div class="line bg-black"></div>
+                            <div class="line bg-black m-0"></div>
                         </div>
                     </div>
                 </div>

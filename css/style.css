@@ -53,36 +53,24 @@ header {
 
 /* Inizio jumbo */
 
-.jumbo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-}
+
 
 .jumboImg img {
     width: 250px;
 }
 
-.jumbo h1 {
-    font-size: 70px;
+#jumbo h1 {
+    font-size: 4rem;
 }
 
 .jumboTxt {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 25px;
 }
 
 .line {
     height: 5px;
-}
-
-.star {
-    font-size: 250%;
 }
 
 .SCmarginY {
@@ -95,11 +83,15 @@ header {
     text-align: center;
 }
 
-.portfolio h1 {
+.portfolio img {
+    width: 100%;
+}
+
+.portfolio h1, .about h1 {
     font-size: 60px;
 }
 
-.portfolio p {
+.portfolio p, .about p {
     font-size: 20px;
 }
 
